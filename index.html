@@ -1,0 +1,226 @@
+<!-- informa o tipo do documento -->
+<!DOCTYPE html>
+<!-- informar qual linguagem -->
+<html lang="pt">
+<!-- parametros de configuração da aplicação -->
+
+<head>
+    <!-- informações de codificação de caracteres -->
+    <meta charset="UTF-8">
+    <!-- informar o tamanho da tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- titulo da página -->
+    <title>Meu primeiro site</title>
+
+    <!-- css interno -->
+    <style>
+        h1,h2,h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            color: darkorange;
+        }
+        p {
+            font-weight: 600;
+            font-size: 18px;
+            color: darkblue;
+        }
+
+        /* chamada via id */
+        #prp1{
+            font-size: 20px;
+            color: fuchsia;
+
+        }
+
+        .cPrp1{
+            font-size: 28px;
+            color: #48C404;
+        }
+
+        .divBorder{
+            border: 2px solid black;
+            padding: 10px;
+           
+        }
+
+    </style>
+</head>
+<!-- corpo da página -->
+
+<body>
+
+    <h1>Introdução HTML5</h1>
+    <h2>##Títulos##</h2>
+    <h3>##Títulos##</h3>
+    <h4>##Títulos##</h4>
+    <h5>##Títulos##</h5>
+    <h6>##Títulos##</h6>
+
+    <h2>##Parágrafo##</h2>
+    <p id="prp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quasi qui expedita voluptas error officia
+        necessitatibus pariatur velit aperiam amet rerum, repudiandae eaque animi quas. Obcaecati excepturi voluptates
+        vel cumque nesciunt eveniet placeat assumenda consequuntur aperiam aspernatur ipsam nulla enim, hic facilis
+        dolores officiis architecto incidunt autem aliquid! Quidem eveniet maiores provident asperiores, perspiciatis
+        sint pariatur distinctio dolorem at similique, a expedita molestiae delectus dicta itaque, omnis fugit obcaecati
+        aspernatur cum? Dolorem saepe laboriosam corrupti, autem aspernatur quos modi sapiente magni non animi doloribus
+        nesciunt magnam voluptatum dolore! Nostrum ut nesciunt placeat sed vero eveniet, ratione quam adipisci obcaecati
+        voluptas.</p>
+
+    <h2>##Âncora##</h2>
+    <!-- manipular links -->
+    <a href="https://www.magazineluiza.com.br/?partner_id=974&gad_source=1&gclid=Cj0KCQjw_qexBhCoARIsAFgBleuq4xiA_dUZu0OF7UEFQKWFgydGuAmxJhgDZcH4APlEYf-X9seQq2EaAgHSEALw_wcB&gclsrc=aw.ds"
+        target="_blank">Clique aqui</a><br>
+    <a
+        href="https://www.casasbahia.com.br/?utm_source=gp_branding&utm_medium=cpc&utm_campaign=gg_brd_inst_cb_exata&gad_source=1&gclid=Cj0KCQjw_qexBhCoARIsAFgBletktT54A1bzYDq1Be8nWBgbNh9-kASueCwhRd_UEaPFotIT-CyKM54aAl74EALw_wcB">Clique
+        aqui</a>
+    <br>
+    <!-- exibir imagens -->
+    <div class="divBorder">
+    <a href="">
+    <img src="./image/photo-1492144534655-ae79c964c9d7.avif" alt="Imagem Principal"></a></div>
+
+    <!-- lista desordenada -->
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+        <li>Item5</li>
+    </ul>
+    <hr>
+
+    <header></header>
+
+
+    <!-- lista ordenada -->
+    <ol>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+        <li>Item5</li>
+    </ol>
+
+    <ol>
+        <li>Item 1
+            <ul>
+                <li>Item 1.1</li>
+                <li>Item 1.2</li>
+            </ul>
+        </li>
+        <li>Item 2
+            <ul>
+                <li>Item 2.1</li>
+                <li>Item 2.2</li>
+            </ul>
+        </li>
+
+    </ol>
+
+    <!-- alinhamento de texto / css inline / negrito / destaque / italico / destaque -->
+
+    <p class="cPrp1" style="text-align: right"><b>texto alinhado à direita</b></p>
+    <p class="cPrp1"  style="text-align: left"><strong>texto alinhado à esquerda</strong></p>
+    <p style="text-align: center"> texto alinhado <i>centralizado</i></p>
+    <p style="text-align: center"><em> texto alinhado centralizado</em></p>
+
+    <!-- <h2>alterar tamanho da fonte</h2> -->
+
+    <p style="font-size: 10px; font-weight:900;">Alterando o tamanho da font</p>
+    <p style="font-size: 30px;">Alterando o tamanho da font</p>
+    <p style="font-size: 50px;">Alterando o tamanho da font</p>
+
+    <!-- <h2>alterar a fonte</h2> -->
+
+    <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        Tipo de fonte 1</p>
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Tipo de fonte 2</p>
+    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Tipo de fonte 3</p>
+
+
+    <!-- alterar cor da fonte -->
+
+    <p style="color:blueviolet ">Teste cor 1</p>
+    <p style="color: red">Teste cor 2</p>
+    <p style="color: #25525525">Teste cor 3</p>
+
+    <p style="background-color: aquamarine;">mais um texto com cor hexadecimal</p>
+    <p style="background-color: #f08484;">mais um texto com cor hexadecimal</p>
+    <p style="background-color: #48C404;">mais um texto com cor hexadecimal</p>
+
+    <!-- inserindo tabela -->
+
+    <table border="2px">
+        <thead>
+            <tr>
+                <th colspan="2">Exemplo Tabela</th>
+            </tr>
+            <tr>
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Item 1</td>
+                <td>Item 2</td>
+            </tr>
+            <tr>
+                <td>Item 3</td>
+                <td>Item 4</td>
+            </tr>
+            <tr>
+                <td>Item 5</td>
+                <td>Item 6</td>
+            </tr>
+            <tr>
+                <td>Item 7</td>
+                <td>Item 8</td>
+            </tr>
+            <tr>
+                <td>Item 9</td>
+                <td>Item 10</td>
+            </tr>
+            <tr>
+                <td>Item 11</td>
+                <td>Item 12</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <h2>div´s</h2>
+    <div
+        style="background-color: aquamarine; width: 200px; height: 200px; margin: 10px; padding: 10px; border: 1px solid black;">
+        Exemplo de DIV
+        <a href=""><div style="background-color: cornflowerblue; width: auto;">Div filha</div></a>
+        <button>clique aqui</button>
+    </div>
+    <div
+        style="background-color: rgb(217, 217, 24); width: 200px; height: 200px; margin: 10px; padding: 10px; border: 1px solid black;">
+        Exemplo de DIV</div>
+    <div
+        style="background-color: deeppink; width: 200px; height: 200px; margin: 10px; padding: 10px; border: 1px solid black;">
+        Exemplo de DIV</div>
+
+    <!-- titulo com span -->
+
+    <p>ultima palavra da frase <span style="color: #48C404;">Texto com SPAN</span></p>
+    <p>ultima palavra da frase <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Texto</span></p>
+    
+
+    <!-- video youtube -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ri3kZI0Ixfs?si=8HMDh7cLztOej-_V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
